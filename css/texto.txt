@@ -1,0 +1,247 @@
+nav
+{
+	background-color: #6ea9ed;
+	height: 35px;
+}
+
+nav ul
+{
+	padding: 0;
+	margin: 0 auto;
+	width: 960px;
+	
+	list-style-type: none; /*Saco el punto de los elementos de la lista, puedo poner aca o en el li*/
+}
+
+nav ul li a
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	background-color: #6ea9ed;
+	color: white;
+	float: left; /*Los coloca en una linea horizontal*/
+	
+	display: block; /*Para que tome todo el cuadrado cuando pasamos el mouse*/
+
+	padding-left:10px; /*Da el espacio entre cada elemento*/
+	padding-right: 10px;
+	width: 172px;
+	margin: 0 0;
+
+	text-decoration: none;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	text-shadow: 1px 1px black;
+	
+}
+
+nav ul li a:hover {
+  background-color: #4c76a6;
+  text-shadow: none;
+}
+
+
+main
+{
+	width: 960px;
+	margin: 30px auto;
+}
+
+main h3
+{
+	color: #3e71a8;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.bienvenidos
+{
+	width: 700px;
+	float: left;
+	height: 100px;
+}
+
+.testimonios
+{
+	width: 260px;
+	float: left;
+	height: 100px;
+}
+
+.cajaGris
+{
+	width: 260px;
+	background-color: #dddddd;
+}
+
+footer
+{
+	clear: both;
+	margin: 30px auto;
+	height: 100px;
+	background-color: #cccccc;
+
+	line-height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	font-style: italic;
+	font-size: 0.8em;
+	color: #9d9d9d;
+}
+
+
+
+
+
+
+main
+{
+	width: 960px;
+	height: 400px;
+	margin: 30px auto;
+}
+
+main h3
+{
+	color: #3e71a8;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.bienvenidos
+{
+	width: 700px;
+	float: left;
+	height: 100px;
+}
+
+.testimonios
+{
+	width: 260px;
+	float: left;
+	height: 100px;
+}
+
+.cajaGris
+{
+	width: 260px;
+	background-color: #dddddd;
+	height: 76px;
+}
+
+
+
+
+
+main
+{
+	height: 415px;
+}
+
+main h3
+{
+	color: #3e71a8;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 1em auto;
+}
+
+.bienvenidos
+{
+	width: 700px;
+	float: left;
+	height: 150px;
+}
+
+.testimonios
+{
+	width: 260px;
+	float: left;
+	height: 150px;
+}
+
+.cajaGris
+{
+	width: 244px;
+	background-color: #dddddd;
+	height: 80px;
+	margin:0 auto 2em;
+	padding: 0.5em;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.staff
+{
+	height: 600px;
+}
+
+.personas
+{
+	width: 18.2%;
+	border: 2px solid #ddd;
+	margin: 0 0.5em;
+	box-sizing: border-box;
+}
+
+.personas .persona
+{
+	padding: 1em;
+	display: block;
+}
+
+.personas .persona img
+{
+	border-radius: 50%;
+	border: 2px solid #ddd;
+}
+
+.personas .nombreTitulo
+{
+	padding: 1em;
+	display: block;
+	text-align: center;
+}
+
+.personas .nombreTitulo .nombre
+{
+	color: #3e71a8;
+}
+
+.personas .nombreTitulo .posicion
+{
+	color: #3e71a8;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+.personas .frase
+{
+	padding: 0.5em;
+	text-align: left;
+}

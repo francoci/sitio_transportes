@@ -1,0 +1,436 @@
+body
+{
+	font-size: 16px;
+	line-height: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header
+{
+	background-color: #2e64a1;
+	padding: 1em 0;
+}
+
+header h1
+{
+	color: #ffffff;
+	font-size: 2.5em;
+	font-style: italic; /*Estilo de la fuente*/
+	font-weight: 100; /*Con numeros del 100 al 900 la voy haciendo mas gruesa*/
+	display: inline-block;
+	position: relative;
+	bottom: 0.8em;
+	margin-left: 0.3em;
+}
+
+
+.logo
+{
+	height: 90px;
+	padding: 1em;
+}
+
+nav
+{
+	background-color: #6ea9ed;
+	height: 42px;
+	margin-bottom: 2em;
+}
+
+nav ul
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none; /*Saco el punto de los elementos de la lista, puedo poner aca o en el li*/
+}
+
+nav ul li
+{
+	display: inline-block;
+	width: 20%;
+}
+
+nav ul li a
+{
+	padding: 0.2em 0.4em;
+	display: block;
+	
+	background-color: #6ea9ed;
+	color: #ffffff;
+	
+	text-align: center;
+	text-decoration: none;
+	line-height: 35px;
+	font-size: 17px;
+	vertical-align: middle;
+	text-shadow: 1px 1px black;	
+}
+
+nav ul li a:hover 
+{
+  background-color: #4c76a5;
+  text-shadow: none;
+}
+
+/*La a que tiene la clase activo, le pasa esto. Esto lo hacemos para marcar la pagina en la que estamos*/
+/*Tiene que estar pegado a la a*/
+nav ul li a.activo
+{
+  background-color: #4c76a5;
+  text-shadow: none;
+}
+
+footer
+{
+	background-color: #cccccc;
+	color: #9d9d9d;
+	font-size: 0.7em;
+	font-style: italic;
+	text-align: center;
+	padding: 3em 0;
+	margin-top: 2em;
+	clear: both;
+}
+
+.holder
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+h2
+{
+	font-weight: 400;
+	color: #3e71a8;
+	margin: 0 0 1em;
+}
+
+
+.left{ float: left; }
+
+.right{ float:right; }
+
+
+/* Inicio Home */
+
+.homeimg
+{
+	clear: both;
+	margin-bottom: 1.5em;
+}
+
+/*.columnas
+{
+	height: 150px;
+	width: 960px;
+}*/
+
+.bienvenidos
+{
+	width: 75%;
+	padding-right: 2em;
+}
+
+.testimonios
+{
+	width: 25%;
+}
+
+.bienvenidos, .testimonios
+{
+	box-sizing: border-box;
+	height: 100%;
+}
+
+.bienvenidos p
+{
+	font-size: 1.3em;
+}
+
+.testimonio
+{
+	background-color: #dddddd;
+	height: 70%;
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+.testimonio .cita
+{
+	font-weight: bold;
+	font-size: 1.4em;
+	font-style: italic;
+	display: block;
+}
+
+.testimonio .autor
+{  
+	font-size: 0.7em;
+	text-align: center;
+	margin: 1em 0;
+	display: block;
+}
+
+.columnas
+{
+	overflow: hidden;
+}
+
+/* Fin Home */
+
+
+/* Inicio Nosotros */
+
+.staff
+{
+	overflow: hidden;
+}
+
+.historia p
+{
+	font-size: 0.8em;
+}
+
+.persona
+{
+	width: 18%;
+	float: left;
+	margin-left: 2.25%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 0.25em;
+}
+
+.persona figure
+{
+	margin: 0.8em 0 1em;
+	text-align: center; /*Con esto la puedo centrar*/
+}
+
+.persona figure img
+{
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+
+.persona h5, .persona h6
+{
+	color: #3e71a8;
+	text-align: center;
+	font-weight: normal;
+	margin: 0;
+}
+
+.persona h5
+{
+	font-size: 0.9em;
+}
+
+.persona h6
+{
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+.persona p
+{
+	font-size: 0.7em;
+	margin: 0 1em 1em;
+	color: #444;
+}
+
+.persona:first-child
+{
+	margin-left: 0;
+}
+
+/*.persona:last-child --> Para el ultimo elemento de la clase persona*/
+/*.persona:first-child --> Para el primer elemento de la clase persona*/
+
+/*Fin Nosotros*/
+
+/*Comienzo Servicios*/
+
+.servicio
+{
+	border: 1px solid #ddd;
+	border-radius: 0.7em;
+	margin: 1em 0;
+	box-sizing: border-box;
+	padding: 1em;
+
+	/*Esto hace que la div englobe a todos los elementos que contiene */
+	/*Muestra todos los elementos de la caja adentro de la misma*/
+	overflow: hidden;
+}
+
+.servicio figure
+{
+	display: inline-block;
+}
+
+.servicio figure img
+{
+	border-radius: 0.8em;
+}
+
+.servicio .info
+{
+	width: 75%;
+}
+
+.servicio .info h4
+{
+	color: #2e64a1;
+	font-size: 1.2em;
+	font-weight: 500;
+	font-style: italic;
+	margin: 0 0 1 em;
+	border-bottom: 1px solid #2e64a1;
+	padding-bottom: 0.5em;
+	
+}
+
+/*Es como el first y el last child, pero en este caso es el nth, es decir el numero n.*/
+/*Aca especificamos que los impares la imagen flote a la izquierda y el texto a la derecha*/
+/*Y los pares, inversamente. Se empieza desde 0*/
+
+.servicio:nth-child(odd) figure
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info
+{
+	float: right;
+}
+
+.servicio:nth-child(even) figure
+{
+	float: right;
+	margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(even) .info
+{
+	float: left;
+}
+
+.servicio .info p
+{
+	font-size: 0.8em;
+}
+
+/*Fin Servicios*/
+
+
+/*Comienzo Galeria*/
+
+.galeria
+{
+	overflow: hidden;
+}
+
+.galeria .foto
+{
+	float: left;
+	width: 18%;
+	margin: 1em 0 1em 2.5%;
+	border: 1px solid #ddd;
+	padding: 0.3em;	
+	box-sizing: border-box;
+}
+
+.galeria .foto img
+{
+	width: 100%;
+	display: block;
+}
+
+/*Cada multiplo de 5 + 1, por ejemplo, la sexta imagen, la decimoprimera.. etc*/
+.galeria .foto:nth-child(5n+1)
+{
+	margin-left: 0;
+}
+
+/*Fin Galeria*/
+
+
+/*Comienzo contacto*/
+
+
+.columna
+{
+	width: 50%;
+	padding: 0 0.7em;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.columna.left
+{
+	border-right: 2px solid #ddd;
+}
+
+.formulario label
+{
+	vertical-align: top;
+	width: 16%;
+	display: inline-block;
+}
+
+.formulario input, .formulario textarea
+{
+	background-color: #ddd;
+	
+	border-radius: 5px;
+	border: 1px solid #999;
+
+	font-size: 0.8em;
+
+	padding: 0.4em 0.6em;
+	width: 96%;
+
+	box-sizing: border-box;
+}
+
+.formulario textarea
+{
+	height: 10em;
+
+	/*Con esto evito que la persona pueda resizear el text area*/
+	resize: none;
+}
+
+.formulario input[type="submit"]
+{
+	background-color: #6ea9ed;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+
+	text-align: center;
+	font-size: 1em;
+
+	width: auto;
+	padding: 0.4em 0.2em;
+}
+
+.formulario .acciones
+{
+	text-align: center;
+}
+
+.columna.right p
+{
+	font-size: 0.8em;
+}
+
+.columna.right ul li
+{
+	font-size: 0.8em;
+}
+
+/*Fin contacto*/

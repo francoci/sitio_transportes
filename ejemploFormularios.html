@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ejemplo Formularios</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	
+	<h1>Etiquetas Formularios</h1>
+
+	<form action="contactform.php" method = "post">
+		<p>
+			<label for="">Nombre</label>
+			<input type="text">
+		</p>
+
+		<p>
+			<label for="ape">Apellido</label>
+			<input type="text" id = "ape">
+		</p>
+
+		<p>
+			<label for="email">Email</label>
+			<input type="text" id = "email" placeholder = "Ingrese su email">
+		</p>
+
+		<p>
+			<label for="pass">Contraseña</label>
+			<input type="password" id = "pass" placeholder = "Contraseña">
+		</p>
+
+		<p>
+			<label for="">Sexo</label>
+			<ul>
+				<li>
+					<input type="radio" name = "sexo" value="mujer">
+					<label for="">Mujer</label>
+				</li>
+				<li>
+					<input type="radio" name = "sexo" value="hombre">
+					<label for="">Hombre</label>
+				</li>
+			</ul>
+		</p>
+
+		<p>
+			<label for="Hobbies">
+				<ul>
+					<li>
+						<input type="checkbox" name = "hobbies[]" value="bailar">
+						<label for="">Bailar</label>
+					</li>
+					<li>
+						<input type="checkbox" name = "hobbies[]" value="cantar">
+						<label for="">Cantar</label>
+					</li>
+					<li>
+						<input type="checkbox" name = "hobbies[]" value="correr">
+						<label for="">Correr</label>
+					</li>
+					<li>
+						<input type="checkbox" name = "hobbies[]" value="nadar">
+						<label for="">Nadar</label>
+					</li>
+				</ul>
+			</label>
+		</p>
+
+		<p>
+			<label for="">Titulo</label>
+			<select name="" id="">
+				<option value="primario">Primario</option>
+				<option value="secundario">Secundario</option>
+				<option value="terciario">Terciario</option>
+				<option value="universitario">Universitario</option>
+			</select>
+		</p>
+
+		<p>
+			<label for="">Comentario</label>
+			<textarea name="" id="" cols="30" rows="10" placeholder = "Mensaje"></textarea>
+		</p>
+
+		<p>
+			<input type="submit" value="Enviar">
+			<button type="button" value="enviar">Enviar</button>
+			<input type="reset" value="Borrar">
+		</p>
+
+	</form>
+</body>
+</html>
